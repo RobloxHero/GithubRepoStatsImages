@@ -7,7 +7,11 @@
   ```Github Settings > Developer Settings > Personal access tokens > Fine grained token```
 - Copy the token you created
 - Create an Action Secret
-
+  
+  ```Read access to code, commit statuses, deployments, discussions, issues, metadata, and pull requests```
+  
+  ```Select Your Repository to use the token with```
+  
   ```Repository Settings > Secrets and variables > New Repository Secret```
 - Name your secret ROBLOX_IMAGES_ACCESS_TOKEN
 - Then paste your Access Token into secret
