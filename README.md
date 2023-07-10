@@ -9,6 +9,8 @@
 - Create an Action Secret
   
   ```Read access to code, commit statuses, deployments, discussions, issues, metadata, and pull requests```
+
+  ```Read and Write access to code```
   
   ```Select Your Repository to use the token with```
   
