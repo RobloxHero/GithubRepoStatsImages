@@ -1,5 +1,6 @@
 # GithubRepoStatsImages
-
+![2,0](https://github.com/RobloxHero/MemoryStoreServerPopulating/blob/main/GitHub-Images/Profile.svg)
+![2,0](https://github.com/RobloxHero/MemoryStoreServerPopulating/blob/main/GitHub-Images/IssuesList.svg)
 ## Installation
 - Download this repo and add the files to your repo.
 - Create a Fine Grained Personal Access Token
