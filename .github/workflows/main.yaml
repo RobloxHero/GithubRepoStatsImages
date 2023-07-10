@@ -1,0 +1,47 @@
+name: 'Roblox Forum Github Stats Images'
+run-name: 'Creating Github Images...'
+on:
+  workflow_dispatch:
+  issues:
+    types:
+      - labeled
+      - milestoned
+      - edited
+      - unlabeled
+      - demilestoned
+      - closed
+      - opened
+
+  push:
+    branches:
+      - '*'
+jobs:
+  SettingUpEnviroment:
+    name: 'Creating Github Images...'
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Add Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Build Action
+        working-directory: ./.github/actions/GenerateImages/
+        env:
+          GITHUB_TOKEN: ${{ secrets.Roblox_Images_Access_Token }}
+        run: |
+            npm install && npm run build
+      - name: Run action
+        uses: ./.github/actions/GenerateImages/
+        with:
+          github_token: ${{ secrets.Roblox_Images_Access_Token }}
+      - name: Add Autocommit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: New Images Generated
+          commit_user_name: Robot
+          commit_user_email: Robot@Robot.org
+
+
+
