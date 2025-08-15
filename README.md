@@ -1,4 +1,7 @@
 # GithubRepoStatsImages
+
+This github action can be added to a github repository and it will output 2 svg images that can be linked to. An issue list svg. And a gothub profile svg. These svgs can be edited if you look in the .github folder.
+
 ![2,0](./GitHub-Images/Profile.svg)
 ![2,0](./GitHub-Images/IssuesList.svg)
 ## Installation
