@@ -19,6 +19,8 @@ jobs:
   SettingUpEnviroment:
     name: 'Creating Github Images...'
     runs-on: 'ubuntu-latest'
+    permissions:
+      contents: write
     steps:
       - name: Add Checkout
         uses: actions/checkout@v3
