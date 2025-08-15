@@ -36,8 +36,8 @@
 <rect id="SvgjsRect1012" x="9" y="107" width="229" height="64" rx="8.94" ry="8.94" style="opacity: .28;"></rect>
 <text id="SvgjsText1011" transform="translate(16.42 124.68) scale(1.14 1)" style="fill: #fff; font-family: AdriannaCondensed-ExtraBold, 'Adrianna Condensed'; font-size: 14.28px; font-weight: 700;" x="0" y="0" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="0" svgjs:data="{&quot;newLined&quot;:true}">Sample Milestone</tspan></text>
 <g id="SvgjsG1010">
-  <rect id="SvgjsRect1009" x="19" y="158" width="104.5" height="6" style="fill: #39b54a;" rx="2" ry="2"></rect>
+  <rect id="SvgjsRect1009" x="19" y="158" width="209" height="6" style="fill: #39b54a;" rx="2" ry="2"></rect>
   </g>
-<text id="SvgjsText1008" transform="translate(153.36 149) scale(.97 1)" style="fill: #fff; font-family: Roboto-Black, Roboto; font-size: 10.92px; font-weight: 800;" x="0" y="0" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="0" svgjs:data="{&quot;newLined&quot;:true}">50% completed</tspan></text>
-<text id="SvgjsText1007" transform="translate(17.79 149) scale(.97 1)" style="fill: #fff; font-family: Roboto-Black, Roboto; font-size: 10.92px; font-weight: 800;" x="0" y="0" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="0" svgjs:data="{&quot;newLined&quot;:true}">1 open 1 closed</tspan></text>
+<text id="SvgjsText1008" transform="translate(153.36 149) scale(.97 1)" style="fill: #fff; font-family: Roboto-Black, Roboto; font-size: 10.92px; font-weight: 800;" x="0" y="0" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="0" svgjs:data="{&quot;newLined&quot;:true}">100% completed</tspan></text>
+<text id="SvgjsText1007" transform="translate(17.79 149) scale(.97 1)" style="fill: #fff; font-family: Roboto-Black, Roboto; font-size: 10.92px; font-weight: 800;" x="0" y="0" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="0" svgjs:data="{&quot;newLined&quot;:true}">0 open 1 closed</tspan></text>
 </g></a></svg>
